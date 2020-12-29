@@ -12,7 +12,6 @@ class Solution:
         return bool(1 - b)
 
 if __name__ == "__main__":
-    #106+1100
     a = Solution.isValid("",s="()")
     print ('aa',a)
     pass
