@@ -1,9 +1,6 @@
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
-        try:
-            return haystack.index(needle)
-        except:
-            return -1
+        return haystack.find(needle)
         
 
 if __name__ == "__main__":
