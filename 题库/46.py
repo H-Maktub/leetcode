@@ -21,7 +21,7 @@ class Solution:
 
 if __name__ == "__main__":
     a = Solution()
-    b = a.permute([1,2,3])
+    b = a.permute([1,2])
     print('=====',b,len(b))
     b = a.permute([5,4,6,2])
     print('=====',b,len(b))
