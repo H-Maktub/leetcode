@@ -34,10 +34,3 @@ class neighborSum:
                     if j + 1 < self.n and i + 1 < self.n:
                         res+=self.temp[i+1][j+1]
                     return res
-
-
-
-Your neighborSum object will be instantiated and called as such:
-obj = neighborSum(grid)
-param_1 = obj.adjacentSum(value)
-param_2 = obj.diagonalSum(value)
