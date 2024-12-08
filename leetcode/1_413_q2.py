@@ -23,3 +23,5 @@ class Solution:
 a = Solution()
 b = a.resultsArray([[1,2],[3,4],[2,3],[-3,0]],2)
 print(b)
+
+
